@@ -1,0 +1,17 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+#main {
+	border: 2px solid black;
+	box-sizing: border-box;
+	height: 50vh;
+	margin: 1vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5vw;
+}
+a {
+	color: gray !important;
+}
