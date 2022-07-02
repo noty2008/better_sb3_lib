@@ -1,8 +1,8 @@
 {
-  "name": "lib4Scratch.js",
+  "name": "Better SB3 Lib",
   "version": "0.1.0",
-  "description": "Library for Scratch",
-  "main": "/src/js/lib4scratch.js",
+  "description": "Better Scratch3.0 standard library",
+  "main": "/src/js/index.js",
   "author": "Noty",
   "license": "MIT",
 }
