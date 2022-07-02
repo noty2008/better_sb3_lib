@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>blockviewer for Scratch</title>
+<script src="/js/noty2008.js"></script>
+<script src="/js/unzip.min.js"></script>
+<script src="/js/lib4scratch.js"></script>
+<script>
+"use strict";
+window.onload = function() {
+	setFileDrop(function(data) {
+		var blkcnt = getCountBlocks(data)
+		main.textContent = blkcnt + " blocks!"
+	}, function() {
+		main.textContent = "This isn't sb3 file"
+	})
+}
+</script>
+<link rel="stylesheet" href="/css/style.css"
+</head>
+<body>
+<h2>blockcounter for Scratch</h2>
+<div id=main>Drop sb3 file here</div>
+</body>
+</html>
