@@ -1,0 +1,8 @@
+{
+  "name": "lib4scratch.js",
+  "version": "0.1.0",
+  "description": "Library for Scratch",
+  "main": "src/lib4screen.js",
+  "author": "Noty",
+  "license": "MIT",
+}
